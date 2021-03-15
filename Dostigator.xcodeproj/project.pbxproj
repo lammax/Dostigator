@@ -15,6 +15,9 @@
 		B4811D5825FFA139009FC0CD /* Dostigator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4811D5625FFA139009FC0CD /* Dostigator.xcdatamodeld */; };
 		B4811D6325FFA139009FC0CD /* DostigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4811D6225FFA139009FC0CD /* DostigatorTests.swift */; };
 		B4811D6E25FFA139009FC0CD /* DostigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4811D6D25FFA139009FC0CD /* DostigatorUITests.swift */; };
+		B4811D8225FFA95C009FC0CD /* Item+adds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4811D8125FFA95C009FC0CD /* Item+adds.swift */; };
+		B4811D8325FFA95C009FC0CD /* Item+adds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4811D8125FFA95C009FC0CD /* Item+adds.swift */; };
+		B4811D8425FFA95C009FC0CD /* Item+adds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4811D8125FFA95C009FC0CD /* Item+adds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		B4811D6925FFA139009FC0CD /* DostigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DostigatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4811D6D25FFA139009FC0CD /* DostigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DostigatorUITests.swift; sourceTree = "<group>"; };
 		B4811D6F25FFA139009FC0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4811D8125FFA95C009FC0CD /* Item+adds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+adds.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		B4811D3F25FFA135009FC0CD = {
 			isa = PBXGroup;
 			children = (
+				B4811D7E25FFA933009FC0CD /* Lib */,
 				B4811D4A25FFA135009FC0CD /* Dostigator */,
 				B4811D6125FFA139009FC0CD /* DostigatorTests */,
 				B4811D6C25FFA139009FC0CD /* DostigatorUITests */,
@@ -134,6 +139,30 @@
 				B4811D6F25FFA139009FC0CD /* Info.plist */,
 			);
 			path = DostigatorUITests;
+			sourceTree = "<group>";
+		};
+		B4811D7E25FFA933009FC0CD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B4811D8025FFA94E009FC0CD /* DB */,
+				B4811D7F25FFA93E009FC0CD /* Extensions */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B4811D7F25FFA93E009FC0CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4811D8025FFA94E009FC0CD /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B4811D8125FFA95C009FC0CD /* Item+adds.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +297,7 @@
 				B4811D5525FFA139009FC0CD /* Persistence.swift in Sources */,
 				B4811D4E25FFA135009FC0CD /* ContentView.swift in Sources */,
 				B4811D4C25FFA135009FC0CD /* DostigatorApp.swift in Sources */,
+				B4811D8225FFA95C009FC0CD /* Item+adds.swift in Sources */,
 				B4811D5825FFA139009FC0CD /* Dostigator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4811D8325FFA95C009FC0CD /* Item+adds.swift in Sources */,
 				B4811D6325FFA139009FC0CD /* DostigatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4811D8425FFA95C009FC0CD /* Item+adds.swift in Sources */,
 				B4811D6E25FFA139009FC0CD /* DostigatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
